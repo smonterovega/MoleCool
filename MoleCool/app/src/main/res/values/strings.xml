@@ -2,4 +2,9 @@
     <string name="app_name">MoleCool</string>
     <string name="title_activity_main">MoleCool</string>
     <string name="placeholder">MOLECOOL</string>
+    <string name="startButton_activity_main">Start</string>
+
+    <string name="title_activity_app_content">Home</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">MOLE\nCOOL</string>
 </resources>
