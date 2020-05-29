@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/applandingpage">
+    <fragment
+        android:id="@+id/applandingpage"
+        android:name="com.molecool.molecool.applandingpage"
+        android:label="fragment_applandingpage"
+        tools:layout="@layout/fragment_applandingpage" >
+        <action
+            android:id="@+id/action_applandingpage_to_game_page"
+            app:destination="@id/game_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/game_page"
+        android:name="com.molecool.molecool.game_page"
+        android:label="fragment_game_page"
+        tools:layout="@layout/fragment_game_page" />
+</navigation>
